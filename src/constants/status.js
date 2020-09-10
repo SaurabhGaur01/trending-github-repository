@@ -1,0 +1,3 @@
+export const API_CALL_STATUS_SUCCESS = "SUCCESS";
+export const API_CALL_STATUS_LOADING = "LOADING";
+export const API_CALL_STATUS_ERROR = "ERROR";

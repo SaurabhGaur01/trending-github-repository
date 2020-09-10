@@ -1,0 +1,48 @@
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    background-color: lightslategray;
+}
+
+.card-container {
+    margin: 3px 10px 8px;
+    height: 350px;
+    width: 300px;
+}
+
+.heading-label {
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.description{
+    padding-top: 10px;
+}
+
+.first-section {
+    height: 172px;
+    position: relative;
+}
+
+.star-count {
+    color: rgba(0,0,0,.4);
+}
+
+.url {
+    margin-left: 80px;
+}
+
+.language-selector {
+    display: flex;
+    margin-left: auto;
+    background-color: white;
+}
+
+.container-head {
+    display: flex;
+}
+
+.cus-fields {
+    min-width: 120px !important;
+}
