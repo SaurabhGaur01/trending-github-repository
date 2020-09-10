@@ -5,7 +5,7 @@ import { compose } from 'redux';
 import RingLoader from "react-spinners/RingLoader";
 import { loaderClass, loaderSize, loaderColor } from '../../constants/loaderClass';
 import RepoCardContent from "./RepoCardContent";
-import { API_CALL_STATUS_LOADING } from '../../constants/status';
+import { API_CALL_STATUS_LOADING, API_CALL_STATUS_SUCCESS } from '../../constants/status';
 
 const RepoCardPage = ({ repoData, apiCallStatus }) => (
     <div className="main-card">
@@ -16,7 +16,7 @@ const RepoCardPage = ({ repoData, apiCallStatus }) => (
             loading={apiCallStatus === API_CALL_STATUS_LOADING ? true: false}
         />  
         {
-            repoData.map((repository) => {
+            apiCallStatus === API_CALL_STATUS_SUCCESS && repoData.map((repository) => {
                 return <RepoCardContent repository={repository} key={repository.id} />;
             })
         }
@@ -34,7 +34,7 @@ RepoCardPage.propTypes = {
     })).isRequired,
 };
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
     repoData: state.repoData,
     apiCallStatus: state.apiCallStatus,
 });

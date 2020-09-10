@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`starredData Duck Tests Action Generator clearStarredData should match the snapshot 1`] = `
+Object {
+  "type": "modules/repo-app/CLEAR_STARRED_DATA",
+}
+`;
+
+exports[`starredData Duck Tests Action Generator setStarredData should match the snapshot 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "mockVariable": "mockValue",
+    },
+  ],
+  "type": "modules/repo-app/SET_STARRED_DATA",
+}
+`;

@@ -1,5 +1,6 @@
 {
   "name": "github-popular-repositories",
+  "homepage": "https://saurabhgaur01.github.io/trending-github-repository/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "immutable": "^3.7.6",
     "moment": "^2.18.1",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
@@ -47,6 +49,7 @@
     "jest-image-snapshot": "^2.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -67,5 +70,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "thunk",
+    "jest",
+    "enzyme",
+    "bootstrap"
+  ],
+  "author": "Saurabh Gaur <saurabh.gaur01@gmail.com>",
+  "license": "MIT"
 }

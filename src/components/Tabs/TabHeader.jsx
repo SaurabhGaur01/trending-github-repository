@@ -36,7 +36,8 @@ const TabHeader = ({ handleChange, value, actionCallRepoApi }) => {
                         id="select-language"
                         value={selectedLanguage}
                         onChange={handleChangeLanguage}
-                    >
+                    >   
+                        <MenuItem value='none'>-</MenuItem>
                         <MenuItem value='Java'>Java</MenuItem>
                         <MenuItem value='C++'>C++</MenuItem>
                         <MenuItem value='Javascript'>Javascript</MenuItem>

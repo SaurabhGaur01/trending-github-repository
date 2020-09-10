@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarredCardPage Component should render correctly 1`] = `
+<div
+  className="main-card"
+>
+  <WithStyles(ForwardRef(Card))
+    className="card-container"
+    key="1"
+  >
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(Rating))
+        max={1}
+        name="rating-card-1"
+        value={1}
+      />
+      <div
+        className="first-section"
+      >
+        <div
+          className="heading-label"
+        >
+          mockName
+        </div>
+        <div
+          className="description"
+        >
+          mockDescription
+        </div>
+      </div>
+      <div
+        className="star-count"
+      >
+        <hr />
+        20
+         stars
+        <hr />
+      </div>
+      <div
+        className="url"
+      >
+        <a
+          href="mockUrl"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <GitHubIcon />
+          Github Repo
+        </a>
+      </div>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+</div>
+`;
+
+exports[`StarredCardPage Component should render correctly when starredData is empty 1`] = `
+<div
+  className="empty-msg"
+>
+  *No data found
+</div>
+`;

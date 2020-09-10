@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoCardContent Component should render correctly 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="card-container"
+  key="1"
+>
+  <WithStyles(ForwardRef(CardContent))>
+    <WithStyles(ForwardRef(Rating))
+      max={1}
+      name="rating-card-1"
+      onChange={[Function]}
+      value={1}
+    />
+    <div
+      className="first-section"
+    >
+      <div
+        className="heading-label"
+      >
+        mockName
+      </div>
+      <div
+        className="description"
+      >
+        mockDescription
+      </div>
+    </div>
+    <div
+      className="star-count"
+    >
+      <hr />
+      20
+       stars
+      <hr />
+    </div>
+    <div
+      className="url"
+    >
+      <a
+        href="mockUrl"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <GitHubIcon />
+        Github Repo
+      </a>
+    </div>
+  </WithStyles(ForwardRef(CardContent))>
+</WithStyles(ForwardRef(Card))>
+`;

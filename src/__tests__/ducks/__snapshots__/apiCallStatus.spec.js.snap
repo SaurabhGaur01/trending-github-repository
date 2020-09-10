@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apiCallStatus Duck Tests Action Generator setApiCallStatusError should match the snapshot 1`] = `
+Object {
+  "type": "modules/repo-app/SET_API_CALL_STATUS_ERROR",
+}
+`;
+
+exports[`apiCallStatus Duck Tests Action Generator setApiCallStatusLoading should match the snapshot 1`] = `
+Object {
+  "type": "modules/repo-app/SET_API_CALL_STATUS_LOADING",
+}
+`;
+
+exports[`apiCallStatus Duck Tests Action Generator setApiCallStatusSuccess should match the snapshot 1`] = `
+Object {
+  "type": "modules/repo-app/SET_API_CALL_STATUS_SUCCESS",
+}
+`;

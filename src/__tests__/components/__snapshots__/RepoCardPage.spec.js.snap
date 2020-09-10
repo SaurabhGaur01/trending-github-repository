@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoCardContent Component should render correctly 1`] = `
+<div
+  className="main-card"
+>
+  <Loader
+    color="#123abc"
+    css={
+      Object {
+        "map": undefined,
+        "name": "agvke8",
+        "next": undefined,
+        "styles": "
+  display: block;
+  margin: 170px auto;
+  border-color: red;
+",
+        "toString": [Function],
+      }
+    }
+    loading={true}
+    size={60}
+  />
+</div>
+`;
+
+exports[`RepoCardContent Component should render correctly when apiCallStatus is Success 1`] = `
+<div
+  className="main-card"
+>
+  <Loader
+    color="#123abc"
+    css={
+      Object {
+        "map": undefined,
+        "name": "agvke8",
+        "next": undefined,
+        "styles": "
+  display: block;
+  margin: 170px auto;
+  border-color: red;
+",
+        "toString": [Function],
+      }
+    }
+    loading={false}
+    size={60}
+  />
+  <Connect(RepoCardContent)
+    key="1"
+    repository={
+      Object {
+        "description": "mockDescription",
+        "html_url": "mockUrl",
+        "id": 1,
+        "name": "mockName",
+        "stargazers_count": 20,
+      }
+    }
+  />
+</div>
+`;

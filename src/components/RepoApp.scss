@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 12px;
-    background-color: lightslategray;
 }
 
 .card-container {
@@ -18,6 +17,8 @@
 
 .description{
     padding-top: 10px;
+    height: 150px;
+    overflow: auto;
 }
 
 .first-section {
@@ -45,4 +46,10 @@
 
 .cus-fields {
     min-width: 120px !important;
+}
+
+.empty-msg {
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
 }
