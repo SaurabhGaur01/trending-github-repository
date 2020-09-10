@@ -8,7 +8,7 @@ This application is using [Github open repositories](https://developer.github.co
 
 This application utilises - React, Redux, Thunk, Jest & Enzyme Testing, Bootstrap and Material UI.
 
-Click on [Demo](https://saurabhgaur01.github.io/weather-app/) for quick view.
+Click on [Demo](https://saurabhgaur01.github.io/trending-github-repository/) for quick view.
 ## Installation & Usage
 
 Use the package manager [Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to run this project on your local. After installing, run below command to install all dependencies-
