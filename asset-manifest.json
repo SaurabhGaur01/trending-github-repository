@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/trending-github-repository/static/css/main.7df72b57.chunk.css",
+    "main.js": "/trending-github-repository/static/js/main.7f59d09d.chunk.js",
+    "main.js.map": "/trending-github-repository/static/js/main.7f59d09d.chunk.js.map",
+    "runtime-main.js": "/trending-github-repository/static/js/runtime-main.1f4a2420.js",
+    "runtime-main.js.map": "/trending-github-repository/static/js/runtime-main.1f4a2420.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/trending-github-repository/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.c1f990de.chunk.js": "/trending-github-repository/static/js/2.c1f990de.chunk.js",
+    "static/js/2.c1f990de.chunk.js.map": "/trending-github-repository/static/js/2.c1f990de.chunk.js.map",
+    "index.html": "/trending-github-repository/index.html",
+    "precache-manifest.493db515a67bf2ef4167d1d293d1ff97.js": "/trending-github-repository/precache-manifest.493db515a67bf2ef4167d1d293d1ff97.js",
+    "service-worker.js": "/trending-github-repository/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/trending-github-repository/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.7df72b57.chunk.css.map": "/trending-github-repository/static/css/main.7df72b57.chunk.css.map",
+    "static/js/2.c1f990de.chunk.js.LICENSE.txt": "/trending-github-repository/static/js/2.c1f990de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f4a2420.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.c1f990de.chunk.js",
+    "static/css/main.7df72b57.chunk.css",
+    "static/js/main.7f59d09d.chunk.js"
+  ]
+}
